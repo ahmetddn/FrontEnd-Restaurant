@@ -1,0 +1,1542 @@
+@media only screen and (max-width: 600px) {
+
+/* ANASAYFA BAŞLANGIÇ */
+
+	.homeSection {
+		width: 100%;
+		height: 100vh;
+		background: url(../images2/rsz_1bannerbg.jpg)no-repeat center center fixed; 
+	    background-size: cover;
+	}
+
+	.homeSection .navBar {
+		width: 50%;
+		padding-left: 95%;
+		padding-top: 120px;
+		font-size: 14px;
+		left: 0 !important;
+	}
+
+	.homeSection .navBar a:hover {
+		color: #3c3c3c;
+	}
+
+	.homeSection .navBar a {
+		color: #878787;
+		font-weight: 500;
+		margin-left: 10px !important;
+	}
+
+	.homeSection .home {
+		border: 1px solid #666;
+		font-family: 'Merriweather', serif;	
+	}
+
+	.homeSection .yazı {
+		padding-left: 60%;
+		padding-top: 20%;
+		font-size: 20px;
+		text-align: center;
+		color: #595959;
+	}
+
+	.homeSection .img img {
+		width: 100% !important;
+		margin-left: -7% !important;
+		padding-top: 0%;
+	}
+
+
+	/* ANASAYFA BİTİŞ */
+
+
+	/* FEATURES BAŞLANGIÇ */
+	
+	.featuresSection {
+		width: 100%;
+		height: 120vh !important;
+		background-color: #f3c30f;
+	}
+
+	.featuresSection .row {
+		text-align: center;
+		margin-top: 100px;
+		padding-top: 120px;
+		padding-bottom: 200px;
+	}
+
+	.featuresSection .col-md-4 h5 {
+		margin-top: 20px;
+		color: #3c3c3c;
+	    font-weight: 600;
+	    font-family: "Myriad Pro" , sans-serif;
+	}
+
+	.featuresSection .col-md-4 p {
+		margin-top: 20px;
+	    font: normal 16px "Myriad Pro", arial, sans-serif;
+	    font-weight: 300;   
+	    color: #3c3c3c;
+	}
+
+
+		/* FEATURES BİTİŞ */
+
+
+
+	/* PRICINGS BAŞLANGIÇ */
+	
+	.pırcıngsSection {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.pırcıngsSection .row {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.pırcıngsSection h2 {
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	    font-size: 40px;
+	}
+
+	.pırcıngsSection .row .portfoy {
+		width: 97.5%;
+		padding-top: 0px;
+	}
+
+	.pırcıngsSection .portfoy img {
+		width: 152px;
+		padding: 0;
+		margin-left: 60px !important;
+	}
+
+	.pırcıngsSection .borderbottom {
+		border: 1px solid #686868;
+	    width: 10%;
+	    margin: auto;
+	}
+
+	.pırcıngsSection .arkayazı {
+		width: 103%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .col-md-2 img {
+		margin-left: 1px;
+	}
+
+	.pırcıngsSection .a img {
+		width: 34.5%;
+		height: 26.3vh;
+		margin-left: 2px;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .a:hover {
+		opacity: 0;
+	}
+
+	.pırcıngsSection .arkayazı h3 {
+		font-size: 16px;
+		padding-top: 20px;
+		color: #545454;
+	}
+
+	.pırcıngsSection .arkayazı p {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.pırcıngsSection .arkayazı:hover {
+	    background: rgba(221, 221, 221, 0.8);
+		position: absolute;
+		opacity: 1;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		transition: 0.6s;
+	}
+
+		/* PRICINGS BİTİŞ */
+
+	/* CLIENTS BAŞLANGIÇ */
+	
+	.clientSection {
+		width: 100%;
+		height: 200vh;
+		margin-top: 400% !important;
+		background-color: #ddd;
+	}
+
+	.clientSection .bir {
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	.clientSection .bir .baslık h2 {
+		font-size: 40px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    font-family: 'Merriweather', serif;
+	    margin: 0;
+	    color: #767676;
+	}
+
+	.clientSection .bir .resim img {
+		overflow: hidden;
+    	padding: 20px 0px 30px 0px;
+	}
+
+	.clientSection .bir .metin p {
+		font-size: 32px;
+	    font-weight: 300;
+	    text-align: center;
+	    font-family: 'Merriweather', serif;
+	    color: #767676;
+	}
+
+	.clientSection .bir .imza img {
+		padding-left: 50%;
+	}
+
+	.clientSection .iki .resim2 {
+		padding-top: 20%;
+		margin-left: -20px;
+	}
+
+	/* CLIENTS BİTİŞ */
+
+
+
+	/* GALERİ BAŞLANGIÇ */
+	
+	.galeriSection {
+		width: 100%;
+		height: 40vh;
+		margin-top: 100%;
+	}
+
+	.galeriSection .menualanı {
+		position: relative;
+		text-align: center;
+		left: 0;
+		padding-left: 10%;
+	}
+
+	.galeriSection .nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	.galeriSection .yazıveresım {
+		padding-left: 15%;
+		top: 0;
+	}
+
+	.galeriSection .yazıveresım h2 {
+	    font-size: 40px;
+		line-height: 38px;
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	}
+
+	.galeriSection .nav li {
+		list-style-type: none;
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	.galeriSection .nav a {
+   		color: #3c3c3c;
+   		display: block;
+	}
+
+	.galeriSection .nav a:hover {
+		text-decoration: none;
+		border: 1px solid grey;
+		color: black;
+	}
+
+	/* GALERİ BİTİŞ */
+
+	/* GALERİ 2 BAŞLANGIÇ */
+	
+	.galeri2Section {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.galeri2Section .col-md-6 {
+		color: #767676;
+	}
+
+	.galeri2Section .col-md-6 p {
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+	}
+
+	.galeri2Section .col-md-6 span {
+		font-family: 'Merriweather', serif;
+		font-size: 14px;
+	}
+
+	/* GALERİ 2 BİTİŞ */
+
+
+
+	/* CONTACT BAŞLANGIÇ */
+	
+	.contactSection {
+		width: 100%;
+		height: 130vh;
+		margin-top: 70%;
+		background: url(../images/footerbg_700x800.jpg) no-repeat;
+		background-size: 0px 0px;
+		background-color: #ddd !important;
+	}
+
+	.contactSection .menualanı {
+		width: 90%;
+		padding: 0 !important;
+		text-align: center;
+		position: absolute;
+		margin-left: 50px;
+	}
+
+	.contactSection .menualanı h2 {
+		padding: 0 !important;
+		color: #767676;
+		font-size: 40px;
+    	font-weight: 600;
+    	font-family: 'Merriweather', serif;
+	}
+
+	.contactSection .row {
+		width: 180%;
+		margin: 0 !important;
+		color: #767676;
+		text-align: center;
+	}
+
+	.contactSection .row .birinci {
+		padding-top: 50px !important;
+		margin-left: -180px !important;
+	}
+
+	.contactSection .row .birinci p {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.contactSection .row .birinci span {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.contactSection .row .ikinci {
+		width: 40%;
+		padding-top: 20% !important;
+		padding-left: 20% !important;
+		position: absolute;
+	}
+
+	.contactSection .row .ikinci h5 {
+		opacity: 1;
+		margin-left: 60px;
+	}
+
+	.contactSection input {
+		margin-top: 0 !important;
+		width: 200px !important;
+		margin: 10px !important;
+		margin-left: -40px !important;
+	}
+
+	.contactSection textarea {
+		margin-top: 0 !important;
+		width: 200px !important;
+		margin: 10px !important;
+		margin-left: -40px !important;
+	}
+
+
+	.contactSection .button {
+		margin-top: 0 !important;
+		width: 200px !important;
+		margin: 10px !important;
+		margin-left: 90px !important;
+	}
+
+	/* CONTACT BİTİŞ */
+}
+
+
+@media only screen and (max-width: 765px) {
+
+/* ANASAYFA BAŞLANGIÇ */
+
+	.homeSection {
+		width: 100%;
+		height: 100vh;
+		background: url(../images2/rsz_1bannerbg.jpg)no-repeat center center fixed; 
+	    background-size: cover;
+	}
+
+	.homeSection .navBar {
+		width: 50%;
+		padding-left: 95%;
+		padding-top: 120px;
+		font-size: 14px;
+		left: 0 !important;
+	}
+
+	.homeSection .navBar a:hover {
+		color: #3c3c3c;
+	}
+
+	.homeSection .navBar a {
+		color: #878787;
+		font-weight: 500;
+		margin-left: 10px !important;
+	}
+
+	.homeSection .home {
+		border: 1px solid #666;
+		font-family: 'Merriweather', serif;	
+	}
+
+	.homeSection .yazı {
+		padding-left: 60%;
+		padding-top: 20%;
+		font-size: 20px;
+		text-align: center;
+		color: #595959;
+	}
+
+	.homeSection .img img {
+		width: 100% !important;
+		margin-left: -7% !important;
+		padding-top: 0%;
+	}
+
+
+	/* ANASAYFA BİTİŞ */
+
+
+	/* FEATURES BAŞLANGIÇ */
+	
+	.featuresSection {
+		width: 100%;
+		height: 130vh !important;
+		background-color: #f3c30f;
+	}
+
+	.featuresSection .row {
+		text-align: center;
+		margin-top: 100px;
+		padding-top: 120px;
+		padding-bottom: 200px;
+	}
+
+	.featuresSection .col-md-4 h5 {
+		margin-top: 20px;
+		color: #3c3c3c;
+	    font-weight: 600;
+	    font-family: "Myriad Pro" , sans-serif;
+	}
+
+	.featuresSection .col-md-4 p {
+		margin-top: 20px;
+	    font: normal 16px "Myriad Pro", arial, sans-serif;
+	    font-weight: 300;   
+	    color: #3c3c3c;
+	}
+
+
+		/* FEATURES BİTİŞ */
+
+
+
+	/* PRICINGS BAŞLANGIÇ */
+	
+	.pırcıngsSection {
+		width: 100%;
+		height: 0vh;
+	}
+
+	.pırcıngsSection .row {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.pırcıngsSection h2 {
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	    font-size: 40px;
+	}
+
+	.pırcıngsSection .row .portfoy {
+		width: 97.5%;
+		padding-top: 0px;
+	}
+
+	.pırcıngsSection .portfoy img {
+		width: 152px;
+		padding: 0;
+		margin-left: 60px !important;
+	}
+
+	.pırcıngsSection .borderbottom {
+		border: 1px solid #686868;
+	    width: 10%;
+	    margin: auto;
+	}
+
+	.pırcıngsSection .arkayazı {
+		width: 103%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .col-md-2 img {
+		margin-left: 1px;
+	}
+
+	.pırcıngsSection .a img {
+		width: 34.5%;
+		height: 26.3vh;
+		margin-left: 2px;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .a:hover {
+		opacity: 0;
+	}
+
+	.pırcıngsSection .arkayazı h3 {
+		font-size: 16px;
+		padding-top: 20px;
+		color: #545454;
+	}
+
+	.pırcıngsSection .arkayazı p {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.pırcıngsSection .arkayazı:hover {
+	    background: rgba(221, 221, 221, 0.8);
+		position: absolute;
+		opacity: 1;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		transition: 0.6s;
+	}
+
+		/* PRICINGS BİTİŞ */
+
+	/* CLIENTS BAŞLANGIÇ */
+	
+	.clientSection {
+		width: 100%;
+		height: 100vh !important;
+		margin-top: 350% !important;
+		background-color: #ddd;
+	}
+
+	.clientSection .bir {
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	.clientSection .bir .baslık h2 {
+		font-size: 40px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    font-family: 'Merriweather', serif;
+	    margin: 0;
+	    color: #767676;
+	}
+
+	.clientSection .bir .resim img {
+		overflow: hidden;
+	}
+
+	.clientSection .bir .metin p {
+		font-size: 32px;
+	    font-weight: 300;
+	    text-align: center;
+	    font-family: 'Merriweather', serif;
+	    color: #767676;
+	}
+
+	.clientSection .bir .imza img {
+		padding-left: 50%;
+	}
+
+	.clientSection .iki .resim2 {
+		padding-top: 20%;
+		padding-left: 10%;
+	}
+
+	/* CLIENTS BİTİŞ */
+
+
+
+	/* GALERİ BAŞLANGIÇ */
+	
+	.galeriSection {
+		width: 100%;
+		height: 40vh;
+		margin-top: 100%;
+	}
+
+	.galeriSection .menualanı {
+		position: relative;
+		text-align: center;
+		left: 0;
+		padding-left: 10%;
+	}
+
+	.galeriSection .nav {
+		width: 150%;
+		margin-left: 20px;
+		text-align: center;
+	}
+
+	.galeriSection .yazıveresım {
+		padding-left: 25%;
+		top: 0;
+	}
+
+	.galeriSection .yazıveresım h2 {
+	    font-size: 40px;
+		line-height: 38px;
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	}
+
+	.galeriSection .nav li {
+		list-style-type: none;
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	.galeriSection .nav a {
+   		color: #3c3c3c;
+   		display: block;
+	}
+
+	.galeriSection .nav a:hover {
+		text-decoration: none;
+		border: 1px solid grey;
+		color: black;
+	}
+
+	/* GALERİ BİTİŞ */
+
+	/* GALERİ 2 BAŞLANGIÇ */
+	
+	.galeri2Section {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.galeri2Section .col-md-6 {
+		color: #767676;
+	}
+
+	.galeri2Section .col-md-6 p {
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+	}
+
+	.galeri2Section .col-md-6 span {
+		font-family: 'Merriweather', serif;
+		font-size: 14px;
+	}
+
+	/* GALERİ 2 BİTİŞ */
+
+
+
+	/* CONTACT BAŞLANGIÇ */
+	
+	.contactSection {
+		width: 100%;
+		height: 130vh;
+		margin-top: 70%;
+		background: url(../images/footerbg_700x800.jpg) no-repeat;
+		background-size: 0px 0px;
+		background-color: #ddd !important;
+	}
+
+	.contactSection .yazıveresım {
+		margin-left: 100px;
+	}
+
+	.contactSection .menualanı {
+		width: 75%;
+		padding: 0 !important;
+		text-align: center;
+		position: absolute;
+	}
+
+	.contactSection .menualanı h2 {
+		padding: 0 !important;
+		color: #767676;
+		font-size: 40px;
+    	font-weight: 600;
+    	font-family: 'Merriweather', serif;
+	}
+
+	.contactSection .row {
+		width: 180%;
+		margin: 0 !important;
+		color: #767676;
+		text-align: center;
+	}
+
+	.contactSection .row .birinci {
+		padding-top: 50px !important;
+		margin-left: -220px !important;
+	}
+
+	.contactSection .row .birinci h5 {
+		text-align: center;
+		padding-left: 175px;
+	}
+
+	.contactSection .row .birinci p {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 175px;
+	}
+
+	.contactSection .row .birinci span {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 175px;
+	}
+
+	.contactSection .row .ikinci {
+		width: 40%;
+		padding-top: 20% !important;
+		padding-left: 20% !important;
+		position: absolute;
+	}
+
+	.contactSection .row .ikinci h5 {
+		opacity: 1;
+		margin-left: 120px;
+	}
+
+	.contactSection input {
+		margin-top: 0 !important;
+		width: 400px !important;
+		margin: 10px !important;
+		margin-left: -40px !important;
+	}
+
+	.contactSection textarea {
+		margin-top: 0 !important;
+		width: 400px !important;
+		margin: 10px !important;
+		margin-left: -40px !important;
+	}
+
+
+	.contactSection .button {
+		margin-top: 0 !important;
+		width: 300px !important;
+		margin: 10px !important;
+		margin-left: 140px !important;
+	}
+
+	/* CONTACT BİTİŞ */
+}
+
+@media only screen and (max-width: 950px) {
+
+/* ANASAYFA BAŞLANGIÇ */
+
+	.homeSection {
+		width: 100%;
+		height: 100vh;
+		background: url(../images2/rsz_1bannerbg.jpg)no-repeat center center fixed; 
+	    background-size: cover;
+	}
+
+	.homeSection .navBar {
+		width: 50%;
+		padding-left: 95%;
+		padding-top: 120px;
+		font-size: 14px;
+		left: 0 !important;
+	}
+
+	.homeSection .navBar a:hover {
+		color: #3c3c3c;
+	}
+
+	.homeSection .navBar a {
+		color: #878787;
+		font-weight: 500;
+		margin-left: 10px !important;
+	}
+
+	.homeSection .home {
+		border: 1px solid #666;
+		font-family: 'Merriweather', serif;	
+	}
+
+	.homeSection .yazı {
+		padding-left: 62%;
+		padding-top: 20%;
+		font-size: 30px;
+		text-align: center;
+		color: #595959;
+	}
+
+	.homeSection .img img {
+		width: 100% !important;
+		margin-left: -7% !important;
+		padding-top: 0%;
+	}
+
+
+	/* ANASAYFA BİTİŞ */
+
+
+	/* FEATURES BAŞLANGIÇ */
+	
+	.featuresSection {
+		width: 100%;
+		height: 80vh;
+		background-color: #f3c30f;
+	}
+
+	.featuresSection .row {
+		text-align: center;
+		margin-top: 100px;
+		padding-top: 120px;
+		padding-bottom: 200px;
+	}
+
+	.featuresSection .col-md-4 h5 {
+		margin-top: 20px;
+		color: #3c3c3c;
+	    font-weight: 600;
+	    font-family: "Myriad Pro" , sans-serif;
+	}
+
+	.featuresSection .col-md-4 p {
+		margin-top: 20px;
+	    font: normal 16px "Myriad Pro", arial, sans-serif;
+	    font-weight: 300;   
+	    color: #3c3c3c;
+	}
+
+
+		/* FEATURES BİTİŞ */
+
+
+
+	/* PRICINGS BAŞLANGIÇ */
+	
+	.pırcıngsSection {
+		width: 100%;
+		height: 0vh !important;
+	}
+
+	.pırcıngsSection .row {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.pırcıngsSection h2 {
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	    font-size: 40px;
+	}
+
+	.pırcıngsSection .row .portfoy {
+		width: 110%;
+		padding-top: 0px;
+	}
+
+	.pırcıngsSection .portfoy img {
+
+	}
+
+	.pırcıngsSection .borderbottom {
+		border: 1px solid #686868;
+	    width: 10%;
+	    margin: auto;
+	}
+
+	.pırcıngsSection .arkayazı {
+		width: 103%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .col-md-2 img {
+		margin-left: 1px;
+	}
+
+	.pırcıngsSection .a img {
+		width: 34.5%;
+		height: 26.3vh;
+		margin-left: 2px;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .a:hover {
+		opacity: 0;
+	}
+
+	.pırcıngsSection .arkayazı h3 {
+		font-size: 16px;
+		padding-top: 20px;
+		color: #545454;
+	}
+
+	.pırcıngsSection .arkayazı p {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.pırcıngsSection .arkayazı:hover {
+	    background: rgba(221, 221, 221, 0.8);
+		position: absolute;
+		opacity: 1;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		transition: 0.6s;
+	}
+
+		/* PRICINGS BİTİŞ */
+
+	/* CLIENTS BAŞLANGIÇ */
+	
+	.clientSection {
+		width: 100%;
+		height: 120vh;
+		margin-top: 300%;
+		background-color: #ddd;
+	}
+
+	.clientSection .bir {
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	.clientSection .bir .baslık h2 {
+		font-size: 40px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    font-family: 'Merriweather', serif;
+	    margin: 0;
+	    color: #767676;
+	}
+
+	.clientSection .bir .resim img {
+		overflow: hidden;
+	}
+
+	.clientSection .bir .metin p {
+		font-size: 32px;
+	    font-weight: 300;
+	    text-align: center;
+	    font-family: 'Merriweather', serif;
+	    color: #767676;
+	}
+
+	.clientSection .bir .imza img {
+		padding-left: 50%;
+	}
+
+	.clientSection .iki .resim2 {
+		padding-top: 20%;
+		padding-left: 10%;
+	}
+
+	/* CLIENTS BİTİŞ */
+
+
+
+	/* GALERİ BAŞLANGIÇ */
+	
+	.galeriSection {
+		width: 100%;
+		height: 40vh;
+		margin-top: 100%;
+	}
+
+	.galeriSection .menualanı {
+		position: relative;
+		text-align: center;
+		left: 0;
+		padding-left: 10%;
+	}
+
+	.galeriSection .nav {
+		width: 150%;
+		margin-left: 20px;
+		text-align: center;
+	}
+
+	.galeriSection .yazıveresım {
+		padding-left: 25%;
+		top: 0;
+	}
+
+	.galeriSection .yazıveresım h2 {
+	    font-size: 40px;
+		line-height: 38px;
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	}
+
+	.galeriSection .nav li {
+		list-style-type: none;
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	.galeriSection .nav a {
+   		color: #3c3c3c;
+   		display: block;
+	}
+
+	.galeriSection .nav a:hover {
+		text-decoration: none;
+		border: 1px solid grey;
+		color: black;
+	}
+
+	/* GALERİ BİTİŞ */
+
+	/* GALERİ 2 BAŞLANGIÇ */
+	
+	.galeri2Section {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.galeri2Section .col-md-6 {
+		color: #767676;
+	}
+
+	.galeri2Section .col-md-6 p {
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+	}
+
+	.galeri2Section .col-md-6 span {
+		font-family: 'Merriweather', serif;
+		font-size: 14px;
+	}
+
+	/* GALERİ 2 BİTİŞ */
+
+
+
+	/* CONTACT BAŞLANGIÇ */
+	
+	.contactSection {
+		width: 100%;
+		height: 130vh;
+		margin-top: 70%;
+		background: url(../images/footerbg_700x800.jpg) no-repeat;
+		background-size: 0px 0px;
+		background-color: #ddd !important;
+	}
+
+	.contactSection .menualanı {
+		width: 75%;
+		padding: 0 !important;
+		text-align: center;
+		position: absolute;
+	}
+
+	.contactSection .yazıveresım {
+		padding-left: 100px;
+	}
+
+	.contactSection .menualanı h2 {
+		padding: 0 !important;
+		color: #767676;
+		font-size: 40px;
+    	font-weight: 600;
+    	font-family: 'Merriweather', serif;
+	}
+
+	.contactSection .row {
+		width: 180%;
+		margin: 0 !important;
+		color: #767676;
+		text-align: center;
+	}
+
+	.contactSection .row .birinci {
+		padding-top: 50px !important;
+		margin-left: -220px !important;
+	}
+
+	.contactSection .row .birinci h5 {
+		text-align: center;
+		padding-left: 100px;
+	}
+
+	.contactSection .row .birinci p {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 150px;
+	}
+
+	.contactSection .row .birinci span {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 100px;
+	}
+
+	.contactSection .row .ikinci {
+		width: 40%;
+		padding-top: 20% !important;
+		padding-left: 20% !important;
+		position: absolute;
+	}
+
+	.contactSection .row .ikinci h5 {
+		opacity: 1;
+		margin-left: 120px;
+	}
+
+	.contactSection input {
+		margin-top: 70px !important;
+		width: 400px !important;
+		margin-left: -40px !important;
+	}
+
+	.contactSection textarea {
+		margin-top: 10px !important;
+		width: 400px !important;
+		margin-left: 20px !important;
+	}
+
+	.contactSection .button {
+		width: 300px !important;
+		margin: 10px !important;
+		margin-left: 140px !important;
+	}
+
+	/* CONTACT BİTİŞ */
+}
+
+@media only screen and (max-width: 990px) {
+
+/* ANASAYFA BAŞLANGIÇ */
+
+	.homeSection {
+		width: 100%;
+		height: 100vh;
+		background: url(../images2/rsz_1bannerbg.jpg)no-repeat center center fixed; 
+	    background-size: cover;
+	}
+
+	.homeSection .navBar {
+		width: 50%;
+		padding-left: 95%;
+		padding-top: 120px;
+		font-size: 14px;
+		left: 0 !important;
+	}
+
+	.homeSection .navBar a:hover {
+		color: #3c3c3c;
+	}
+
+	.homeSection .navBar a {
+		color: #878787;
+		font-weight: 500;
+		margin-left: 10px !important;
+	}
+
+	.homeSection .home {
+		border: 1px solid #666;
+		font-family: 'Merriweather', serif;	
+	}
+
+	.homeSection .yazı {
+		padding-left: 62%;
+		padding-top: 20%;
+		font-size: 30px;
+		text-align: center;
+		color: #595959;
+	}
+
+	.homeSection .img img {
+		width: 100% !important;
+		margin-left: -7% !important;
+		padding-top: 0%;
+	}
+
+
+	/* ANASAYFA BİTİŞ */
+
+
+	/* FEATURES BAŞLANGIÇ */
+	
+	.featuresSection {
+		width: 100%;
+		height: 80vh;
+		background-color: #f3c30f;
+	}
+
+	.featuresSection .row {
+		text-align: center;
+		margin-top: 100px;
+		padding-top: 120px;
+		padding-bottom: 200px;
+	}
+
+	.featuresSection .col-md-4 h5 {
+		margin-top: 20px;
+		color: #3c3c3c;
+	    font-weight: 600;
+	    font-family: "Myriad Pro" , sans-serif;
+	}
+
+	.featuresSection .col-md-4 p {
+		margin-top: 20px;
+	    font: normal 16px "Myriad Pro", arial, sans-serif;
+	    font-weight: 300;   
+	    color: #3c3c3c;
+	}
+
+
+		/* FEATURES BİTİŞ */
+
+
+
+	/* PRICINGS BAŞLANGIÇ */
+	
+	.pırcıngsSection {
+		width: 100%;
+		height: 0vh !important;
+	}
+
+	.pırcıngsSection .row {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.pırcıngsSection h2 {
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	    font-size: 40px;
+	}
+
+	.pırcıngsSection .row .portfoy {
+		width: 110%;
+		padding-top: 0px;
+	}
+
+	.pırcıngsSection .portfoy img {
+
+	}
+
+	.pırcıngsSection .borderbottom {
+		border: 1px solid #686868;
+	    width: 10%;
+	    margin: auto;
+	}
+
+	.pırcıngsSection .arkayazı {
+		width: 103%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .col-md-2 img {
+		margin-left: 1px;
+	}
+
+	.pırcıngsSection .a img {
+		width: 34.5%;
+		height: 26.3vh;
+		margin-left: 2px;
+		opacity: 0;
+	}
+
+	.pırcıngsSection .a:hover {
+		opacity: 0;
+	}
+
+	.pırcıngsSection .arkayazı h3 {
+		font-size: 16px;
+		padding-top: 20px;
+		color: #545454;
+	}
+
+	.pırcıngsSection .arkayazı p {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.pırcıngsSection .arkayazı:hover {
+	    background: rgba(221, 221, 221, 0.8);
+		position: absolute;
+		opacity: 1;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		transition: 0.6s;
+	}
+
+		/* PRICINGS BİTİŞ */
+
+	/* CLIENTS BAŞLANGIÇ */
+	
+	.clientSection {
+		width: 100%;
+		height: 120vh;
+		margin-top: 70%;
+		background-color: #ddd;
+	}
+
+	.clientSection .bir {
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	.clientSection .bir .baslık h2 {
+		font-size: 40px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    font-family: 'Merriweather', serif;
+	    margin: 0;
+	    color: #767676;
+	}
+
+	.clientSection .bir .resim img {
+		overflow: hidden;
+	}
+
+	.clientSection .bir .metin p {
+		font-size: 32px;
+	    font-weight: 300;
+	    text-align: center;
+	    font-family: 'Merriweather', serif;
+	    color: #767676;
+	}
+
+	.clientSection .bir .imza img {
+		padding-left: 50%;
+	}
+
+	.clientSection .iki .resim2 {
+		padding-top: 20%;
+		padding-left: 10%;
+	}
+
+	/* CLIENTS BİTİŞ */
+
+
+
+	/* GALERİ BAŞLANGIÇ */
+	
+	.galeriSection {
+		width: 100%;
+		height: 40vh;
+		margin-top: 20%;
+	}
+
+	.galeriSection .menualanı {
+		position: relative;
+		text-align: center;
+		left: 0;
+		padding-left: 15%;
+	}
+
+	.galeriSection .nav {
+		width: 150%;
+		margin-left: 20px;
+		text-align: center;
+	}
+
+	.galeriSection .yazıveresım {
+		padding-left: 25%;
+		top: 0;
+	}
+
+	.galeriSection .yazıveresım h2 {
+	    font-size: 40px;
+		line-height: 38px;
+		font-weight: 600;
+		font-family: 'Merriweather', serif;
+		color: #767676;
+	}
+
+	.galeriSection .nav li {
+		list-style-type: none;
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	.galeriSection .nav a {
+   		color: #3c3c3c;
+   		display: block;
+	}
+
+	.galeriSection .nav a:hover {
+		text-decoration: none;
+		border: 1px solid grey;
+		color: black;
+	}
+
+	/* GALERİ BİTİŞ */
+
+	/* GALERİ 2 BAŞLANGIÇ */
+	
+	.galeri2Section {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.galeri2Section .col-md-6 {
+		color: #767676;
+	}
+
+	.galeri2Section .col-md-6 p {
+		font-family: 'Merriweather', serif;
+		font-size: 18px;
+	}
+
+	.galeri2Section .col-md-6 span {
+		font-family: 'Merriweather', serif;
+		font-size: 14px;
+	}
+
+	/* GALERİ 2 BİTİŞ */
+
+
+
+	/* CONTACT BAŞLANGIÇ */
+	
+	.contactSection {
+		width: 100%;
+		height: 130vh;
+		margin-top: 20%;
+		background: url(../images/footerbg_700x800.jpg) no-repeat;
+		background-size: 0px 0px;
+		background-color: #ddd !important;
+	}
+
+	.contactSection .menualanı {
+		width: 75%;
+		padding: 0 !important;
+		text-align: center;
+		position: absolute;
+	}
+
+	.contactSection .yazıveresım {
+		margin-left: -50px;
+	}
+
+	.contactSection .menualanı h2 {
+		padding: 0 !important;
+		color: #767676;
+		font-size: 40px;
+    	font-weight: 600;
+    	font-family: 'Merriweather', serif;
+	}
+
+	.contactSection .row {
+		width: 180%;
+		margin: 0 !important;
+		color: #767676;
+		text-align: center;
+	}
+
+	.contactSection .row .birinci {
+		padding-top: 50px !important;
+		margin-left: -340px !important;
+	}
+
+	.contactSection .row .birinci h5 {
+		text-align: center;
+		padding-left: 100px;
+	}
+
+	.contactSection .row .birinci p {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 150px;
+	}
+
+	.contactSection .row .birinci span {
+		text-align: center;
+		font-size: 14px;
+		padding-left: 100px;
+	}
+
+	.contactSection .row .ikinci {
+		width: 40%;
+		padding-top: 20% !important;
+		padding-left: 20% !important;
+		position: absolute;
+	}
+
+	.contactSection .row .ikinci h5 {
+		opacity: 1;
+		margin-left: 120px;
+	}
+
+	.contactSection input {
+		margin-top: 70px !important;
+		width: 400px !important;
+		margin-left: -40px !important;
+	}
+
+	.contactSection textarea {
+		margin-top: 10px !important;
+		width: 400px !important;
+		margin-left: 20px !important;
+	}
+
+	.contactSection .button {
+		width: 300px !important;
+		margin: 10px !important;
+		margin-left: 140px !important;
+	}
+
+	/* CONTACT BİTİŞ */
+}
